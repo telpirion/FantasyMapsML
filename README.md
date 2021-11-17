@@ -15,15 +15,24 @@ applications for easy use!
 ## Give us your maps!
 
 In machine learning, your model is only as good as the quality and quantity of
-the data used to train it. To create a better model, you must provide more
+the data used to train it. To create a better model, we must provide more
 high-quality data.
 
-This is where you come in: we need more training data! We accept computer-drawn
-maps with gridlines overlayed on top. Although we will accept just maps, we
-would really appreciate any VTT-compliant JSON metadata that goes along with the
-maps.
+This is where you come in: we need more training data! We'd like you to contribute your
+computer-drawn maps with square grid lines overlayed on top in PNG or JPG format. The filenames
+should include the dimensions in grid squares, e.g. the following map file name:
 
-We accept PNG and JPG images.
+```text
+My Dungeon [20x30].jpg
+```
+
+This file is a JPG of 20 grid squares wide by 30 grid squares tall. The initial grid square
+must start at 0,0 for this to be a valid image to train the model.
+
+**Please gather together as many of this image files as possible into a folder on your favorite
+file sharing service, e.g. Google Drive, Dropbox, OneDrive, whatever, and [post the link as an
+issue](https://github.com/telpirion/FantasyMapsML/issues).** We'll pull them out and use them to
+train the model.
 
 ## Progress
 
