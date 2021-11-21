@@ -27,13 +27,7 @@ format. The filenames should include the dimensions in grid squares, e.g. the
 following map file name:
 
 ```text
-
-  
-
-My Dungeon [20x30].jpg````````
-
-  
-
+My Dungeon [20x30].jpg
 ```
 
 This file is a JPG of 20 grid squares wide by 30 grid squares tall. The initial
