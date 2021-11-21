@@ -1,6 +1,9 @@
 # FantasyMaps
 
-**tl;dr:** We need your maps to build a machine learning model for generating
+**tl;dr: Downloading images one at a time from the internet doesn't scale. We
+need people with large sets of gridded maps to donate your images here!**
+
+We need your maps to build a machine learning model for generating
 VTT-compliant JSON from map images.
 
 If you've ever downloaded a map file from the internet for your virtual
@@ -24,7 +27,13 @@ format. The filenames should include the dimensions in grid squares, e.g. the
 following map file name:
 
 ```text
-My Dungeon [20x30].jpg
+
+  
+
+My Dungeon [20x30].jpg````````
+
+  
+
 ```
 
 This file is a JPG of 20 grid squares wide by 30 grid squares tall. The initial
@@ -63,12 +72,12 @@ Predicted gridlines (output from model):
 
 ![computer-drawn map of desert with predicted gridlines](images/predicted-gridded-desert.png)
 
-Our next step is to create an exportable version of this model to incorporate
-into a library. We need more training data to create a high-quality, exportable
-model.
-
-
-
+Our next step is to create an exportable version of this model to incorporate into a
+completely free, open source library. We need more training data to create a high-quality,
+exportable model. The training data we need consists of large numbers of gridded map images
+with the grid dimensions encoded into the file name, e.g. "My Dungeon [20x30].jpg". We need
+more training data to create a high-quality, exportable model. If you can help us, please
+donate your images here!
 
 <!-- LINKS -->
 [od]: https://cloud.google.com/vertex-ai/docs/beginner/beginners-guide?hl=en#video
